@@ -1,0 +1,9 @@
+1.Find the median
+def find_median(self, v):
+	    v.sort()
+	    l=len(v)
+	    if (l%2!=0):
+	        return v[l//2]
+	    else:
+	       
+	        return (v[l//2]+v[(l//2)-1])//2
